@@ -1,0 +1,212 @@
+import { ProductType } from "./types";
+export const Product: ProductType[] = [
+  {
+    id: 1,
+    img: "/assests/gamePad.png",
+    title: "HAVIT HV-92 Gamepad",
+    Price: 120,
+    actualPrice: 160,
+    cartTitle: "GamePad",
+    Category: "FlashSale",
+    detail:
+      "The HAVIT HV-92 Gamepad offers a sleek design with dual vibration feedback. Enjoy precise control and comfort for long gaming sessions on PC or console.",
+  },
+  {
+    id: 2,
+    img: "/assests/keyBoard.png",
+    title: "AK-900 Wired Keyboard",
+    Price: 960,
+    actualPrice: 1160,
+    cartTitle: "KeyBoard",
+    Category: "FlashSale",
+    detail:
+      "This AK-900 wired keyboard features mechanical-feel keys and RGB lighting. Built to last, it's perfect for both typing and fast-paced gaming.",
+  },
+  {
+    id: 3,
+    img: "/assests/lcd.png",
+    title: "IPS LCD Gaming Monitor",
+    Price: 370,
+    actualPrice: 400,
+    cartTitle: "LCD",
+    Category: "FlashSale",
+    detail:
+      "Experience immersive visuals on a 27-inch full HD IPS screen. This monitor delivers rich colors, sharp images, and a smooth refresh rate for gaming.",
+  },
+  {
+    id: 4,
+    img: "/assests/chair.png",
+    title: "S-Series Comfort Chair",
+    Price: 375,
+    actualPrice: 400,
+    cartTitle: "Chair",
+    Category: "FlashSale",
+    detail:
+      "Stay comfortable during long work or gaming hours with the S-Series Chair. It features adjustable height, lumbar support, and soft cushioning.",
+  },
+  {
+    id: 5,
+    img: "/assests/jacket.png",
+    title: "Quilted Satin Jacket",
+    Price: 660,
+    actualPrice: 800,
+    cartTitle: "Jacket",
+    Category: "FlashSale",
+    detail:
+      "A stylish quilted satin jacket with a warm inner lining. Perfect for winter evenings or casual wear with a modern, trendy look.",
+  },
+  {
+    id: 6,
+    img: "/assests/studs.png",
+    title: "Jr.Zoom Soccer Cleats",
+    Price: 1160,
+    actualPrice: 1300,
+    cartTitle: "Cleats",
+    Category: "FlashSale",
+    detail:
+      "Lightweight soccer cleats designed for maximum grip and agility. Ideal for young athletes looking to improve performance on any field.",
+  },
+  {
+    id: 7,
+    img: "/assests/dogfood.png",
+    title: "Breed dog dry Food",
+    Price: 100,
+    actualPrice: 120,
+    cartTitle: "Dog Food",
+    Category: "FlashSale",
+    detail:
+      "High-protein dry dog food made with natural ingredients. Supports muscle development, coat shine, and overall canine health.",
+  },
+  {
+    id: 8,
+    img: "/assests/coat.png",
+    title: "The North Coat",
+    Price: 260,
+    actualPrice: 360,
+    cartTitle: "Coat",
+    Category: "BestSelling",
+    detail:
+      "Premium winter coat with fleece lining and a durable outer shell. Designed to keep you warm, comfortable, and fashionable in cold weather.",
+  },
+  {
+    id: 9,
+    img: "/assests/gucci.png",
+    title: "Gucci Duffle Bag",
+    Price: 960,
+    actualPrice: 1160,
+    cartTitle: "Bag",
+    Category: "BestSelling",
+    detail:
+      "Luxury duffle bag crafted from genuine leather. Spacious, stylish, and ideal for travel or gym with signature Gucci detailing.",
+  },
+  {
+    id: 10,
+    img: "/assests/rgbcooler.png",
+    title: "RGB Liquid CPU cooler",
+    Price: 160,
+    actualPrice: 170,
+    cartTitle: "CPU Cool",
+    Category: "BestSelling",
+    detail:
+      "Efficient liquid cooling with RGB lighting for style. Keeps your CPU cool under heavy workloads and ensures stable performance.",
+  },
+  {
+    id: 11,
+    img: "/assests/bookshelf.png",
+    title: "Small BookShelf",
+    Price: 375,
+    actualPrice: 400,
+    cartTitle: "BookShelf",
+    Category: "BestSelling",
+    detail:
+      "Compact wooden bookshelf with a clean, modern design. Perfect for organizing books, plants, or décor in small spaces.",
+  },
+  {
+    id: 12,
+    img: "/assests/dogfood.png",
+    title: "Breed dog dry Food",
+    Price: 100,
+    actualPrice: 0,
+    cartTitle: "Dog Food",
+    Category: "Explore",
+    detail:
+      "Wholesome dry dog food for all breeds and sizes. Promotes strong bones, better digestion, and a shinier coat.",
+  },
+  {
+    id: 13,
+    img: "/assests/camera.png",
+    title: "Canon EOS DSLR Camera",
+    Price: 360,
+    actualPrice: 0,
+    cartTitle: "Camera",
+    Category: "Explore",
+    detail:
+      "Capture stunning photos with the Canon EOS DSLR. Features advanced autofocus and high-res imaging for professionals and beginners alike.",
+  },
+  {
+    id: 14,
+    img: "/assests/laptop.png",
+    title: "ASUS FHD Gaming Laptop",
+    Price: 700,
+    actualPrice: 0,
+    cartTitle: "Laptop",
+    Category: "Explore",
+    detail:
+      "Powerful gaming laptop with FHD display and fast GPU. Smooth multitasking, immersive visuals, and long battery life.",
+  },
+  {
+    id: 15,
+    img: "/assests/lcd.png",
+    title: "IPS LCD Gaming Monitor",
+    Price: 100,
+    actualPrice: 0,
+    cartTitle: "Monitor",
+    Category: "Explore",
+    detail:
+      "Sharp and vibrant IPS panel with wide viewing angles. Ideal for gaming, editing, and media consumption in any setup.",
+  },
+  {
+    id: 16,
+    img: "/assests/car.png",
+    title: "Kids Electric Car",
+    Price: 960,
+    actualPrice: 0,
+    cartTitle: "Kids Car",
+    Category: "Explore",
+    detail:
+      "Fun electric ride-on car with remote control for safety. Includes headlights, music, and realistic driving experience for kids.",
+  },
+  {
+    id: 17,
+    img: "/assests/studs.png",
+    title: "Jr.Zoom Soccer Cleats",
+    Price: 100,
+    actualPrice: 0,
+    cartTitle: "Cleats",
+    Category: "Explore",
+    detail:
+      "Youth soccer cleats offering speed, comfort, and support. Designed for agility and confidence on natural or artificial turf.",
+  },
+  {
+    id: 18,
+    img: "/assests/gp11gamepad.png",
+    title: "GP11 Shooter USB Gamepad",
+    Price: 660,
+    actualPrice: 0,
+    cartTitle: "Gamepad",
+    Category: "Explore",
+    detail:
+      "Ergonomic USB gamepad with responsive triggers and joysticks. Plug and play design for PC or console gaming.",
+  },
+  {
+    id: 19,
+    img: "/assests/jacket.png",
+    title: "Quilted Satin Jacket",
+    Price: 660,
+    actualPrice: 0,
+    cartTitle: "Jacket",
+    Category: "Explore",
+    detail:
+      "Fashion-forward jacket with quilted detailing and satin fabric. Lightweight yet cozy for transitional weather.",
+  },
+];
